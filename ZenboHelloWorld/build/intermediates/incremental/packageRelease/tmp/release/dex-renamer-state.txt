@@ -1,0 +1,4 @@
+#Mon Dec 02 11:04:49 CST 2019
+base.0=C\:\\Users\\user\\Desktop\\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\\ZenboHelloWorld\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

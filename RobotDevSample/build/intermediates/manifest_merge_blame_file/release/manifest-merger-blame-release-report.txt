@@ -1,0 +1,121 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.asus.robotdevsample"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:5:5-51:19
+12        android:allowBackup="true"
+12-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:6:9-35
+13        android:icon="@mipmap/ic_launcher"
+13-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:7:9-43
+14        android:label="@string/app_name"
+14-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:8:9-41
+15        android:supportsRtl="true"
+15-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:9:9-35
+16        android:theme="@style/RobotDevToolTheme" >
+16-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:10:9-49
+17        <activity android:name="com.carey.robotdevsample.RobotDevSampleActivity" >
+17-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:12:9-22:20
+17-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:12:19-81
+18            <intent-filter>
+18-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:13:13-21:29
+19                <action android:name="android.intent.action.MAIN" />
+19-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:14:17-69
+19-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:14:25-66
+20
+21                <category android:name="com.asus.intent.category.ZENBO" />
+21-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:15:17-75
+21-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:15:27-72
+22                <category android:name="com.asus.intent.category.ZENBO_LAUNCHER" />
+22-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:16:17-84
+22-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:16:27-81
+23
+24                <!-- please comment out the following line when you want to launch to Zenbo App Store -->
+25                <!-- See Zenbo Developer Web: Zenbo-SDK-Getting-Started: Important notes on Zenbo APP developing -->
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:20:17-77
+26-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:20:27-74
+27            </intent-filter>
+28        </activity>
+29
+30        <!-- vision activities -->
+31        <activity android:name="com.carey.robotdevsample.VisionActivity" />
+31-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:25:9-75
+31-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:25:19-73
+32        <activity android:name="com.carey.robotdevsample.VisionRequestDetectPerson" />
+32-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:26:13-90
+32-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:26:23-88
+33        <activity android:name="com.carey.robotdevsample.VisionRequestDetectFace" />
+33-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:27:13-89
+33-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:27:23-86
+34
+35        <!-- motion activities -->
+36        <activity android:name="com.carey.robotdevsample.MotionActivity" />
+36-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:30:9-75
+36-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:30:19-73
+37        <activity android:name="com.carey.robotdevsample.MotionMoveBodyHead" />
+37-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:31:13-83
+37-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:31:23-81
+38        <activity android:name="com.carey.robotdevsample.MotionRemoteControlBodyHead" />
+38-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:32:13-92
+38-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:32:23-90
+39
+40        <!-- robot activities -->
+41        <activity android:name="com.carey.robotdevsample.RobotActivity" />
+41-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:35:9-74
+41-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:35:19-72
+42        <activity android:name="com.carey.robotdevsample.RobotSpeak" />
+42-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:36:13-75
+42-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:36:23-73
+43        <activity android:name="com.carey.robotdevsample.RobotSetExpression" />
+43-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:37:13-83
+43-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:37:23-81
+44
+45        <!-- utility activities -->
+46        <activity android:name="com.carey.robotdevsample.UtilityActivity" />
+46-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:40:9-76
+46-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:40:19-74
+47        <activity android:name="com.carey.robotdevsample.UtilityPlayAction" />
+47-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:41:13-82
+47-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:41:23-80
+48        <activity android:name="com.carey.robotdevsample.UtilityPlayEmotionalAction" />
+48-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:42:13-91
+48-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:42:23-89
+49
+50        <!-- wheelLithts activities -->
+51        <activity android:name="com.carey.robotdevsample.WheelLightsActivity" />
+51-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:45:9-80
+51-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:45:19-78
+52        <activity android:name="com.carey.robotdevsample.WheelLightsSetBrightness" />
+52-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:46:13-89
+52-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:46:23-87
+53        <activity android:name="com.carey.robotdevsample.WheelLightsTurnOff" />
+53-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:47:13-83
+53-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:47:23-81
+54        <activity android:name="com.carey.robotdevsample.WheelLightsSetColor" />
+54-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:48:13-84
+54-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\RobotDevSample\src\main\AndroidManifest.xml:48:23-82
+55
+56        <meta-data
+56-->[com.android.support:appcompat-v7:26.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\b28c3dfacec283a46c3ce58afd169202\appcompat-v7-26.1.0\AndroidManifest.xml:26:9-28:38
+57            android:name="android.support.VERSION"
+57-->[com.android.support:appcompat-v7:26.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\b28c3dfacec283a46c3ce58afd169202\appcompat-v7-26.1.0\AndroidManifest.xml:27:13-51
+58            android:value="26.1.0" />
+58-->[com.android.support:appcompat-v7:26.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\b28c3dfacec283a46c3ce58afd169202\appcompat-v7-26.1.0\AndroidManifest.xml:28:13-35
+59        <meta-data
+59-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\2651008cd98233e6b4b850667bef3705\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+60            android:name="android.arch.lifecycle.VERSION"
+60-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\2651008cd98233e6b4b850667bef3705\runtime-1.0.0\AndroidManifest.xml:26:13-58
+61            android:value="27.0.0-SNAPSHOT" />
+61-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\2651008cd98233e6b4b850667bef3705\runtime-1.0.0\AndroidManifest.xml:27:13-44
+62    </application>
+63
+64</manifest>

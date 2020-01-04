@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86_64,x86"
+    api-level="28"
+    build-mode="FULL"
+    density="420dpi"
+    format="10"
+    plugin-version="3.4.0"
+    timestamp="1569751366328"
+    token="-7066299518648562278"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="239" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="411" />
+    <task
+        name="verifier"
+        duration="66" />
+
+    <artifact
+        location="D:\SDK\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboHelloWorld\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\SDK\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboHelloWorld\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\SDK\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboHelloWorld\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\SDK\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboHelloWorld\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\SDK\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboHelloWorld\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\SDK\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboHelloWorld\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\SDK\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboHelloWorld\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\SDK\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboHelloWorld\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\SDK\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboHelloWorld\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\SDK\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboHelloWorld\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\SDK\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboHelloWorld\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\SDK\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboHelloWorld\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\SDK\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboHelloWorld\build\intermediates\instant-run-apk\debug\ZenboHelloWorld-debug.apk"
+        type="SPLIT_MAIN" />
+
+    <build
+        build-mode="FULL"
+        timestamp="1569751366328"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="D:\SDK\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboHelloWorld\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\SDK\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboHelloWorld\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\SDK\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboHelloWorld\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\SDK\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboHelloWorld\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\SDK\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboHelloWorld\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\SDK\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboHelloWorld\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\SDK\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboHelloWorld\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\SDK\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboHelloWorld\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\SDK\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboHelloWorld\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\SDK\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboHelloWorld\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\SDK\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboHelloWorld\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\SDK\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboHelloWorld\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\SDK\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboHelloWorld\build\intermediates\instant-run-apk\debug\ZenboHelloWorld-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+
+</instant-run>

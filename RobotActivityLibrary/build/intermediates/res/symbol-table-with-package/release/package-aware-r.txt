@@ -1,0 +1,2 @@
+com.robot.carey.robotactivity
+string app_name

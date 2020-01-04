@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView_permission_status"
+        android:layout_width="match_parent"
+        android:layout_height="134dp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/button_goTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="go" />
+
+    <Button
+        android:id="@+id/button_getRoomInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get" />
+
+    <Button
+        android:id="@+id/button_requestPermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="request" />
+
+    <TextView
+        android:id="@+id/textView_roomInfo_1st_keyword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+</LinearLayout>

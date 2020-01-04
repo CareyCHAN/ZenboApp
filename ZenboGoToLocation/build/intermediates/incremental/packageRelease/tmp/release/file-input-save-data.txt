@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sun Sep 29 20:41:47 CST 2019
+0.baseType=DIRECTORY
+0.base=D\:\\SDK\\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\\ZenboGoToLocation\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
+0.path=classes.dex
+0.set=DEX
+count=1

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">圖書館服務</string>
+
+    <string name="qa">QA問與答</string>
+
+    <string name="permission_not_granted">Status: permission not granted!</string>
+    <string name="permission_granted">Status: permission is already granted! Go to next step!</string>
+    <string name="first_room_info">No room info</string>
+</resources>

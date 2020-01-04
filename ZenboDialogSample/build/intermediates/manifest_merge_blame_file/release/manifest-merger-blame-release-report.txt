@@ -1,0 +1,131 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.carey.guide"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_CONTACTS" />
+11-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:6:5-72
+11-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:6:22-69
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:7:5-83
+12-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:7:22-64
+13
+14    <application
+14-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:9:5-52:19
+15        android:allowBackup="true"
+15-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:10:9-35
+16        android:icon="@mipmap/ic_launcher"
+16-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:11:9-43
+17        android:label="@string/app_name"
+17-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:12:9-41
+18        android:screenOrientation="landscape"
+18-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:13:9-46
+19        android:supportsRtl="true" >
+19-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:14:9-35
+20
+21        <!-- android:theme="@style/RobotDevTheme"> -->
+22
+23        <meta-data
+23-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:17:9-18:63
+24            android:name="zenbo_ds_domainuuid"
+24-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:17:20-54
+25            android:value="6644756538CF41BCA96FEA374E8C1B38" />
+25-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:18:13-61
+26        <meta-data
+26-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:20:9-21:36
+27            android:name="zenbo_ds_version_6644756538CF41BCA96FEA374E8C1B38"
+27-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:20:20-84
+28            android:value="0.0.1" />
+28-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:21:13-34
+29
+30        <activity android:name="com.carey.guide.Main" >
+30-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:25:9-35:20
+30-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:25:19-54
+31            <intent-filter>
+31-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:26:13-34:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:27:17-69
+32-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:27:25-66
+33
+34                <category android:name="com.asus.intent.category.ZENBO" />
+34-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:28:17-75
+34-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:28:27-72
+35                <category android:name="com.asus.intent.category.ZENBO_LAUNCHER" />
+35-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:29:17-84
+35-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:29:27-81
+36
+37                <!-- please comment out the following line when you want to launch to Zenbo App Store -->
+38                <!-- See Zenbo Developer Web: Zenbo-SDK-Getting-Started: Important notes on Zenbo APP developing -->
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:33:17-77
+39-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:33:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity android:name="com.carey.guide.guide" />
+42-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:36:9-52
+42-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:36:19-40
+43        <activity android:name="com.carey.guide.advisory" />
+43-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:37:9-55
+43-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:37:19-43
+44        <activity android:name="com.carey.guide.srvtime" />
+44-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:38:9-54
+44-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:38:19-42
+45        <activity android:name="com.carey.guide.qa" />
+45-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:39:9-49
+45-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:39:19-37
+46        <activity android:name="com.carey.guide.q1" />
+46-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:40:9-49
+46-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:40:19-37
+47        <activity android:name="com.carey.guide.q2" />
+47-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:41:9-49
+47-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:41:19-37
+48        <activity android:name="com.carey.guide.q3" />
+48-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:42:9-49
+48-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:42:19-37
+49        <activity android:name="com.carey.guide.q4" />
+49-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:43:9-49
+49-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:43:19-37
+50        <activity android:name="com.carey.guide.q5" />
+50-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:44:9-49
+50-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:44:19-37
+51        <activity android:name="com.carey.guide.q6" />
+51-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:45:9-49
+51-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:45:19-37
+52        <activity android:name="com.carey.guide.q7" />
+52-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:46:9-49
+52-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:46:19-37
+53        <activity android:name="com.carey.guide.q8" />
+53-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:47:9-49
+53-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:47:19-37
+54        <activity android:name="com.carey.guide.q9" />
+54-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:48:9-49
+54-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:48:19-37
+55        <activity android:name="com.carey.guide.q10" />
+55-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:49:9-50
+55-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:49:19-38
+56        <activity android:name="com.carey.guide.q11" />
+56-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:50:9-50
+56-->C:\Users\user\Desktop\ZenboSDK_and_SampleCode_v1.0.72.1826_for_studio_3.2\ZenboDialogSample\src\main\AndroidManifest.xml:50:19-38
+57
+58        <meta-data
+58-->[com.android.support:appcompat-v7:26.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\b28c3dfacec283a46c3ce58afd169202\appcompat-v7-26.1.0\AndroidManifest.xml:26:9-28:38
+59            android:name="android.support.VERSION"
+59-->[com.android.support:appcompat-v7:26.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\b28c3dfacec283a46c3ce58afd169202\appcompat-v7-26.1.0\AndroidManifest.xml:27:13-51
+60            android:value="26.1.0" />
+60-->[com.android.support:appcompat-v7:26.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\b28c3dfacec283a46c3ce58afd169202\appcompat-v7-26.1.0\AndroidManifest.xml:28:13-35
+61        <meta-data
+61-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\2651008cd98233e6b4b850667bef3705\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+62            android:name="android.arch.lifecycle.VERSION"
+62-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\2651008cd98233e6b4b850667bef3705\runtime-1.0.0\AndroidManifest.xml:26:13-58
+63            android:value="27.0.0-SNAPSHOT" />
+63-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\2651008cd98233e6b4b850667bef3705\runtime-1.0.0\AndroidManifest.xml:27:13-44
+64    </application>
+65
+66</manifest>

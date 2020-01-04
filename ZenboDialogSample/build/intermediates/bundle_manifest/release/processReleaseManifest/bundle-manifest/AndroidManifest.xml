@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.carey.guide"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="landscape"
+        android:supportsRtl="true" >
+
+        <!-- android:theme="@style/RobotDevTheme"> -->
+
+        <meta-data
+            android:name="zenbo_ds_domainuuid"
+            android:value="6644756538CF41BCA96FEA374E8C1B38" />
+        <meta-data
+            android:name="zenbo_ds_version_6644756538CF41BCA96FEA374E8C1B38"
+            android:value="0.0.1" />
+
+        <activity android:name="com.carey.guide.Main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.asus.intent.category.ZENBO" />
+                <category android:name="com.asus.intent.category.ZENBO_LAUNCHER" />
+
+                <!-- please comment out the following line when you want to launch to Zenbo App Store -->
+                <!-- See Zenbo Developer Web: Zenbo-SDK-Getting-Started: Important notes on Zenbo APP developing -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.carey.guide.guide" />
+        <activity android:name="com.carey.guide.advisory" />
+        <activity android:name="com.carey.guide.srvtime" />
+        <activity android:name="com.carey.guide.qa" />
+        <activity android:name="com.carey.guide.q1" />
+        <activity android:name="com.carey.guide.q2" />
+        <activity android:name="com.carey.guide.q3" />
+        <activity android:name="com.carey.guide.q4" />
+        <activity android:name="com.carey.guide.q5" />
+        <activity android:name="com.carey.guide.q6" />
+        <activity android:name="com.carey.guide.q7" />
+        <activity android:name="com.carey.guide.q8" />
+        <activity android:name="com.carey.guide.q9" />
+        <activity android:name="com.carey.guide.q10" />
+        <activity android:name="com.carey.guide.q11" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+    </application>
+
+</manifest>
